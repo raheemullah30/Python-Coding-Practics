@@ -1,3 +1,4 @@
+#this is a simple DMC for a Students
 # Input marks for English, Urdu, and Maths subjects
 Student_Name = str(input("First enter your Name: "))
 
@@ -9,6 +10,6 @@ maths = int(input("Enter your Maths subject marks here: "))
 total_marks = 300
 obtained_marks = english + urdu + maths
 percentage = (obtained_marks / total_marks) * 100
-
 # Display the percentage
 print("Percentage:", percentage)
+
